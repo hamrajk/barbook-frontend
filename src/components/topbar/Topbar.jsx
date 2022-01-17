@@ -8,12 +8,13 @@ export default function Topbar() {
         <span className="logo">BarkBook</span>
       </div>
       <div className="topbarCenter">
-        <div className="searchBar"></div>
-        <Search />
-        <input
-          placeholder="Search for your pals, and what they're up to"
-          className="searchInput"
-        />
+        <div className="searchBar">
+          <Search className="searchIcon" />
+          <input
+            placeholder="Search for your pals, and what they're up to"
+            className="searchInput"
+          />
+        </div>
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
@@ -23,15 +24,15 @@ export default function Topbar() {
         <div className="topbarIcons">
           <div className="topbarIconItem">
             <Person />
-            <span className="topbarIconBadage">1</span>
+            <span className="topbarIconBadge">1</span>
           </div>
           <div className="topbarIconItem">
             <Chat />
-            <span className="topbarIconBadage">2</span>
+            <span className="topbarIconBadge">2</span>
           </div>
           <div className="topbarIconItem">
             <Notifications />
-            <span className="topbarIconBadage">3</span>
+            <span className="topbarIconBadge">3</span>
           </div>
         </div>
         <img src="/assets/People/10.jpg" alt="" className="topbarImg" />
