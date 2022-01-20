@@ -7,7 +7,7 @@ export default function Share() {
       <div className="shareWrapper">
         <div className="shareTop">
           <img src="/assets/People/10.jpg" alt="" className="shareProfileImg" />
-          <input placeholder="Wuff's on your mind?" className="shareInput" />
+          <input placeholder="Woof's on your mind?" className="shareInput" />
         </div>
         <hr className="shareHr" />
         <div className="shareBottom">
