@@ -22,7 +22,6 @@ export default function Profile() {
     fetchUser();
   }, [username]);
 
-  console.log(user);
   return (
     <>
       <Topbar />
@@ -55,7 +54,7 @@ export default function Profile() {
           </div>
           <div className="profileRightBottom">
             <Feed username={username} />
-            {isLoading !== true ? <Rightbar user={user} /> : null}
+            {isLoading === false && <Rightbar user={user} />}
           </div>
         </div>
       </div>

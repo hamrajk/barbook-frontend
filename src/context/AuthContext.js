@@ -10,7 +10,7 @@ const INITIAL_STATE = {
     profilePicture: "People/10.jpg",
     coverPicture: "",
     followers: [],
-    following: ["61eb563f946f0062d966a339"],
+    following: [],
     isAdmin: false,
     desc: "Just a loving Shepherd who loves to bully sticks, biting, and rubs!",
     city: "Brampton",
